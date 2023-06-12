@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+.container{
+    width: 640px;
+    margin: auto;
+}
+
+/* Add the below css to use the effect */
+.dark-effect{
+    transition: filter .5s ease-in-out;
+}
+
+.dark-effect:hover {
+    filter: brightness(50%);
+}
